@@ -82,7 +82,7 @@ const Sidebar = () => {
       </div>
    
         <div
-          className="flex gap-5 cursor-pointer items-center ml-16"
+          className="flex gap-5 cursor-pointer justify-center items-center"
           onClick={handleLogout}
         >
           <IoIosLogOut size={iconSize} color={iconColor} />
